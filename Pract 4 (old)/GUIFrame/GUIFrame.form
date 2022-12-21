@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Pract4.GUIFrame">
+  <grid id="27dc6" binding="Panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1014" height="696"/>
+    </constraints>
+    <properties>
+      <background color="-14079703"/>
+      <foreground color="-256"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="57e10" class="javax.swing.JLabel" binding="res">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="3" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Result: 0 X 0"/>
+        </properties>
+      </component>
+      <component id="378e7" class="javax.swing.JLabel" binding="last">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Last Scorer: N/A"/>
+        </properties>
+      </component>
+      <component id="5598e" class="javax.swing.JLabel" binding="win">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Winner: DRAW"/>
+        </properties>
+      </component>
+      <component id="895db" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Real Madrid"/>
+        </properties>
+      </component>
+      <component id="e4d3" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <hideActionText value="false"/>
+          <text value="AC Milan"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
